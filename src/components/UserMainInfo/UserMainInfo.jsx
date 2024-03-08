@@ -7,8 +7,8 @@ const UserMainInfo = ({ name, tag, location, image }) => {
         src={image}
         alt="User avatar"
         className={css.img}
-        width="200"
-        height="200"
+        width="150"
+        height="150"
       />
       <p className={css.name}>{name}</p>
       <p className={css.tagAndLocation}>@{tag}</p>
